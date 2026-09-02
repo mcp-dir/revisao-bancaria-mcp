@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/revisao-bancaria-mcp",
+  "title": "Revisão de Contrato Bancário",
+  "description": "Bank contract review for AI: recalculate interest, correction and amounts of contracts and financing",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/revisao-bancaria-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_revisao-bancaria"
+    }
+  ]
+}
